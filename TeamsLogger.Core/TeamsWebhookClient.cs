@@ -34,7 +34,7 @@ namespace TeamsLogger.Core
             request.ContentType = "application/json";
             request.Method = "POST";
 
-            var encoding = new ASCIIEncoding();
+            var encoding = new UTF8Encoding();
             var bytes = encoding.GetBytes(jsonPayload);
 
             using (var newStream = request.GetRequestStream())
