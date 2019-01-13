@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TeamsLogger\TeamsLogger.csproj">
-      <Project>{f5b035a2-156f-4a6e-85cf-fd922aee55c1}</Project>
-      <Name>TeamsLogger</Name>
+    <ProjectReference Include="..\TeamsLogger.Core\TeamsLogger.Core.csproj">
+      <Project>{e5152cfe-3415-4842-9a56-f82a7ef64929}</Project>
+      <Name>TeamsLogger.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
